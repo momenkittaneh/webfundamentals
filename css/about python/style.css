@@ -1,0 +1,98 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.page
+{
+    background: turquoise;
+    width: 1100px;
+    height: auto;
+}
+header
+{
+    display: flex;
+
+}
+header img
+{
+    width: 350px;
+    height: 100px;
+}
+.sidebox
+{
+    color: white;
+
+}
+.sidebox .searchbar
+{
+    background: violet;
+    
+    height: 50px;
+    display: flex;
+    
+    
+    
+}
+#search
+{
+width: 100px;
+height: 30px;
+}
+#go
+{
+    width: 40px;
+    height: 25px;
+}
+
+nav
+{
+    margin-left: 10%;
+    display: flex;
+    background: tomato;
+}
+nav a
+{
+    color: white;
+    font-size: 30px;
+}
+.mid
+{
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+section
+{
+    margin-left:90px ;
+    width: 300px;
+    font: 20px;
+}
+.mi
+{
+    width: 400px;
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.mi article
+{
+    width: 300px;
+
+   
+}
+ article p
+{
+    width: 300px;
+    text-align: justify;
+}
+article h1
+{
+    width: 300px;
+}
+article ul
+{
+    width: 300px;
+}

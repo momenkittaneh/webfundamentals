@@ -1,0 +1,135 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+h1,h2{
+    background:  rgb(148, 147, 157);
+    padding: 20px;
+}
+p{
+    margin: 15px;
+    text-align: justify;
+}
+a{
+    margin: 20px;
+    color: black;
+}
+.ta
+{
+    font-size: 14px;
+    text-align: justify;
+    height: 140px;
+    
+}
+
+.contain
+{
+    min-width: 900px;
+    max-width: 1200px;
+    min-height: 900px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    background: black;
+    margin: 0 auto;
+}
+.above
+{
+    width: auto;
+    height: 100px;
+    background: linear-gradient(to top, white ,rgb(219,204,218));
+    padding: 0px;
+    display:flex;
+}
+.tx1
+{
+    font-size: 30px;
+    display: inline-block;
+}
+.tx2
+{
+    font-size: 30px;
+    margin-left: 49%;
+}
+#page
+{    
+    min-width: 900px;
+    max-width: 1058px;
+    min-height: 900px;
+    display: inline-block;
+    height: auto;
+    background: rgb(106, 84, 95);
+    
+}
+#page img
+{
+    width: 400px;
+    border: 5px solid silver;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+#page #info
+{
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 200px;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    background: linear-gradient(to right, white ,rgb(219,204,218));
+    display: inline-block;
+    vertical-align: top;
+}
+#page .maintopic
+{
+    background: linear-gradient(to right, white ,rgb(219,204,218));
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 25px;
+} 
+#page .maintopic img
+{
+    width: 300px;
+     height:200px;
+     border: none;
+     margin-left: 0px;
+    
+}
+#page .icons
+{
+    margin: 12px;
+}
+#page .icons img
+{
+    width:40px;
+    height:40px;
+    border: none;  
+    margin: 0px;  
+}
+.links
+{
+    width: 140px;
+    height: 20px;
+    border-radius: 10%;
+    border:solid black;
+    background-color: green;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.last
+{
+    
+    background-color: white;
+    width: auto;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;   
+}
+.last img
+{
+    width:20px;
+    height: 20px;
+}

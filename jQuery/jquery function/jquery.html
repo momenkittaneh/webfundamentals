@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $(document).ready(function(){
+                $("button.one").click(function(){
+                    $("p:first").addClass("intro")})
+        
+                    $("button.two").click(function(){
+                    $("p.two").hide()})
+                    $("button.three").click(function(){
+                    $("p.two").show()})
+                    $("button.fourth").click(function(){
+                    $("p.four").toggle()})
+                    $("button.fifth").click(function(){
+                    $("p.five").slideUp()})
+                    $("button.sixth").click(function(){
+                    $("p.five").slideDown()})
+                    $("button.seventh").click(function(){
+                    $("p.six").slideToggle()})
+                    $("button.eit").click(function(){
+                    $("p.seven").fadeIn()
+                    $("p.seven").fadeIn("slow")
+                    $("p.seven").fadeIn(1000)})
+                    $("button.eith").click(function(){
+                    $("p.seven").fadeOut()
+                    $("p.seven").fadeOut("slow")
+                    $("p.seven").fadeOut(1000)})
+                    $("button.nine").click(function(){
+                    $("p.eith").before("<p>Befere CODING DOJO</p>")})
+                    $("button.ten").click(function(){
+                    $("p.eith").after("<p>after CODING DOJO</p>")})
+                    $("button.eleven").click(function(){
+                    $("p.eith").html("AXSOS ACADEMY")})
+                    $("button.tewl").click(function(){
+                     $("h1.h").append("AXSOS ACADEMY")})
+                     $("button.photo").click(function(){
+                     $("img").attr("width","500")})
+                     $("button.rr").click(function(){
+                     $("input:text").val("width","500")})
+                     $("button.dd").click(function(){
+                     $("p.dd").text("The New Text")})
+
+                })
+    </script>
+    <style>
+        .intro{
+            font-size: 150%;
+            color:red;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <h1>ADD Calss</h1>
+    <button class="one">Add Clsaa</button>
+    <p>Click the button to add closs 'red' to this paragraph </p><br>
+    <hr>
+    <h1>Hide</h1>
+    <button class="two">hide</button><button class="three">show</button>
+    <p class="two">Click the button to Slide Toggle and hidden the image</p><br>
+    <hr>
+    <h1>Toggle</h1>
+    <button class="fourth">Toggle</button>
+    <p class = "four">Click the button to append new paragraph!</p><br>
+    <hr>
+    <h1>Slide</h1>
+    <button class="fifth">SlideUp</button>
+    <button class="sixth">SlideDown</button>
+    <p class = "five">Click the button to slide paragraph!</p><br>
+    <hr>
+    <h1>SlideToggle</h1>
+    <button class="seventh">SlideDown</button>
+    <p class = "six">Click the button to slide paragraph!</p><br>
+    <hr>
+    <h1>FadeIn</h1>
+    <button class="eit">FdeIn</button>
+    <button class="eith">FdeOut</button>
+    <p class = "seven">Click the button to slide paragraph!</p><br>
+    <p class = "seven">Click the button to slide paragraph!</p><br>
+    <p class = "seven">Click the button to slide paragraph!</p><br>
+    <hr>
+    <h1 class="h">AddText</h1>
+    <button class="nine">Append before</button>
+    <button class="ten">apeendAfter</button>
+    <button class="eleven">Html before</button>
+    <button class="tewl">Append</button>
+    <p class = "eith">Click the button to slide paragraph!</p><br>
+    <hr>
+    <h1>Attribute</h1>
+    <button class="photo">Append</button>
+    <img src="angular.png">
+    <hr>
+    <h1>Value</h1>
+    <button class="rr">Value</button>
+    <p>Text <input type="text" name="axsos"></p>
+    <hr>
+    <h1>Change Text</h1>
+    <button class="dd">Change Text</button>
+    <p class="dd">Text</p>
+    <p class="dd">Text</p>
+    <p class="dd">Text</p>
+
+</body>
+</html>

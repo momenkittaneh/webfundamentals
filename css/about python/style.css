@@ -1,0 +1,155 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+.page{
+    
+    
+    width: 900px;
+    background:linear-gradient(to top, rgb(71, 71, 224),rgb(18, 18, 128));
+}
+a{
+    font-size: 20px;
+    color: white;
+
+}
+header
+{display: flex;
+justify-content: space-evenly;
+margin-bottom: 10px;
+}
+header img{width: 350px;
+height: 100px;
+}
+header h3
+{
+    margin-left: 1px;
+}
+.sidebox{
+    color: white;
+    margin-left: 278px;
+}
+.sidebox .searchbox
+{
+background-color: grey ;
+height: 60px;
+width: 200px;
+display: flex;
+border-radius: 5%;
+
+}
+#search{
+    width: 102px;
+    height: 25px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+#go
+{width: 40px;
+height: 32px;
+margin-left: -21px;
+margin-top: 10px;
+}
+
+nav{
+    background-color: rgb(72, 127, 171);
+width: 800px;
+height: 50px;
+display: flex;
+justify-content: space-evenly;
+border-radius: 10px;
+margin-bottom: 13px;
+}
+nav a{    text-decoration: none;
+margin-top: 10px;}
+
+.main
+{width: 411px;
+color: white;
+margin-top: 0px;}
+.main h2{
+    color: rgb(238, 196, 58);
+    margin-top: 10px;
+}
+.main h3{
+    margin-top:10px ;
+}
+
+.main p h2 h3
+{text-align: center;}
+
+.side
+{
+    height: auto;
+    width: 300px;
+    margin-left: 10px;
+    
+}
+
+.side ul
+{
+    margin-left: -257px;
+	margin-top: 0px;
+	list-style: none;
+	text-align: center;
+	float: left;
+    
+}
+.side ul li
+{
+    margin-top: 5px;
+}
+.side ul li::before
+{content: "»";}
+
+article
+{
+    width: 544px;
+    text-align: center;
+    margin-left: 13px;
+}
+.boxall
+{
+    display: flex;
+    background-color: white;
+}
+
+.boxa{
+    width: 298px;
+    background-color: white;
+    border-top:solid rgb(63, 63, 228)1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    padding: 1px;
+    text-align: center;
+}
+.boxa li
+{
+    color: teal;
+}
+.boxa ul
+{
+    list-style-type: square;
+    color: black;
+}    
+
+footer{
+    display: flex;
+
+    text-align: center;
+    width: auto;
+    height: 35px;
+font-size: 20px;
+margin-left: 30px;
+padding-top: 30px;
+}
+.copy
+{
+    
+    font-size: 10px;
+    text-align: center;
+    height: 20px;
+}
